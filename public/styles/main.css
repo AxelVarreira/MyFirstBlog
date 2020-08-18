@@ -1,0 +1,19 @@
+:root{
+    --main-color: #202024;
+    --button-color: #8158E1;
+    --secondary-color: #F0F0F0;
+    --background-color: #2B2B2B;
+    --details-color: #F7DF42;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: var(--background-color);
+    font-family: 'Fira Code', monospace;
+}
