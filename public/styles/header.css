@@ -1,0 +1,66 @@
+#header{
+    width: 100%;
+    padding: 15px;
+    background: var(--main-color);
+    position: relative;
+    display: block; position: relative; z-index: 1; width: 100%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+#header .container .header{
+    display: flex;
+    align-items: center;
+}
+
+#header .container .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#header .container .menu .profileImage{
+    display: flex;
+    align-items: center;
+}
+
+#header .container .menu .profileImage .title{
+    color: var(--secondary-color);
+    margin-left: 10px;
+
+    /*Animation*/
+    border-right: 2px solid black;
+    animation: barraPiscando 500ms steps(30) infinite normal, typing 4s steps(30) 1s normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#header .container .menu li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+
+#header .container .menu .btnMenu{
+    padding: 0;
+    background: transparent;
+    color: var(--secondary-color);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: ease-out color .5s ;
+    text-decoration: none;
+}   
+#header .container .menu .btnMenu:hover{
+    color: var(--button-color);
+}
+#header .container .menuList .imageList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

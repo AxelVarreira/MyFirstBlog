@@ -1,0 +1,24 @@
+.article{
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: .5s;
+}
+
+.article:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
+}
+
+.description{
+    margin: 10px 0;
+    border: solid var(--main-color) 0 1px 1px 1px;
+    background-color: var(--secondary-color);
+}
+
+.title,
+.description{
+    color: var(--main-color);
+}

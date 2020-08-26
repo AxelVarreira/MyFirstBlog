@@ -17,3 +17,19 @@ body{
     background-color: var(--background-color);
     font-family: 'Fira Code', monospace;
 }
+
+
+h1, 
+h2, 
+h3, 
+h4,
+h5,
+p,
+time{
+    text-align: justify;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+}
