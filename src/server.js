@@ -14,6 +14,10 @@ function adminPage(req, res){
     return res.render("admin.html");
 }
 
+function postsPage(req, res){
+    return res.render("posts.html");
+}
+
 const nunjucks = require ('nunjucks')
 nunjucks.configure('src/views', {
     express: server,
@@ -27,5 +31,6 @@ server
 .get("/", homePage)
 .get("/projects", projectsPage)
 .get("/adminPage", adminPage)
+.get("/posts", postsPage)
 //Start do serviço
 .listen(5300)
