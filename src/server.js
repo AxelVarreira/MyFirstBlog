@@ -29,8 +29,5 @@ server
 .use(express.static("public"))
 //rotas da aplicação
 .get("/", homePage)
-.get("/projects", projectsPage)
-.get("/adminPage", adminPage)
-.get("/posts", postsPage)
 //Start do serviço
 .listen(5300)
