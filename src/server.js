@@ -6,18 +6,6 @@ function homePage(req, res){
     return res.render("index.html")
 }
 
-function projectsPage(req, res){
-    return res.render("projects.html")
-}
-
-function adminPage(req, res){
-    return res.render("admin.html");
-}
-
-function postsPage(req, res){
-    return res.render("posts.html");
-}
-
 const nunjucks = require ('nunjucks')
 nunjucks.configure('src/views', {
     express: server,
