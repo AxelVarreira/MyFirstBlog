@@ -1,5 +1,5 @@
 # MyFirstBlog
-Here i'll program my first blog
+Here i'm programming my first blog
 
 Blog is too much, so i'll call as prototype of a blog, because, i dont know yet how i'll create an admin page to create posts.
 <br>
