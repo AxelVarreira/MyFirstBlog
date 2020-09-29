@@ -17,4 +17,8 @@ The premise was to create without any framework, but i'll think about it a littl
     <h1>Images:</h1>
 <br>
 
-[![Screenshot-from-2020-08-17-21-32-45.png](https://i.postimg.cc/J7TcZWML/Screenshot-from-2020-08-17-21-32-45.png)](https://postimg.cc/hhddR6Xy)
+[![Screenshot-from-2020-09-29-16-55-20.png](https://i.postimg.cc/RVq9KxJX/Screenshot-from-2020-09-29-16-55-20.png)](https://postimg.cc/RNrjx8RH)
+
+<br>
+
+[![Screenshot-from-2020-09-29-16-55-23.png](https://i.postimg.cc/cHsGJpN7/Screenshot-from-2020-09-29-16-55-23.png)](https://postimg.cc/zLPctPv3)
