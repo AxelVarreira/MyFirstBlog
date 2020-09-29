@@ -1,86 +1,189 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="icon" type="icon/image" href="images/profile.png" />
+		<link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" href="styles/header.css" />
+		<link rel="stylesheet" href="styles/post.css" />
+		<link rel="stylesheet" href="styles/animations.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Mad's blog</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="icon/image" href="images/profile.png">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/post.css">
-    <link rel="stylesheet" href="styles/animations.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap" rel="stylesheet">
-    <title>Mad's blog</title>
-</head>
+	<body>
+		<div id="header">
+			<div class="container">
+				<div class="menu">
+					<div class="profileImage">
+						<img
+							src="images/profile.png"
+							alt="Profile Picture"
+							width="64"
+							height="64"
+						/>
+						<span class="title"
+							>Mad's blog</span
+						>
+					</div>
+					<ul class="menuList">
+						<li>
+							<a
+								href="#"
+								class="btnMenu"
+							>
+								<img
+									src="images/navbar/newspaper.svg"
+									class="imgList"
+									alt="Noticia"
+									width="24"
+									height="24"
+								/>
+								Noticias
+							</a>
+						</li>
 
-<body>
-    <div id="header">
-        <div class="container">
-            <div class="menu">
-                <div class="profileImage">
-                    <img src="images/profile.png" alt="Profile Picture" width="64" height="64">
-                    <span class="title">Mad's blog</span>
-                </div>
-                <ul class="menuList">
+						<li>
+							<a
+								href="#"
+								class="btnMenu"
+							>
+								<img
+									src="images/navbar/project.svg"
+									class="imgList"
+									alt="Projetos"
+									width="24"
+									height="24"
+								/>
+								Projetos
+							</a>
+						</li>
 
-                    <li>
-                        <a href="#" class="btnMenu">
-                            <img src="images/navbar/newspaper.svg" class="imgList"  alt="Noticia" width="24" height="24">
-                            Noticias
-                        </a>
-                    </li>
+						<li>
+							<a
+								href="#"
+								class="btnMenu"
+							>
+								<img
+									src="images/navbar/podcast.svg"
+									class="imgList"
+									alt="Projetos"
+									width="24"
+									height="24"
+								/>
+								Podcast
+							</a>
+						</li>
 
-                    <li>
-                        <a href="#" class="btnMenu">
-                            <img src="images/navbar/project.svg"  class="imgList" alt="Projetos" width="24" height="24">
-                            Projetos
-                        </a>
-                    </li>
+						<li>
+							<a
+								href="#"
+								class="btnMenu"
+							>
+								<img
+									src="images/navbar/post.svg"
+									class="imgList"
+									alt="Projetos"
+									width="24"
+									height="24"
+								/>
+								Posts
+							</a>
+						</li>
 
-                    <li>
-                       <a href="#" class="btnMenu">
-                        <img src="images/navbar/podcast.svg" class="imgList"  alt="Projetos" width="24" height="24">
-                        Podcast
-                       </a>
-                    </li>
+						<li>
+							<a
+								href="#"
+								class="btnMenu"
+							>
+								<img
+									src="images/navbar/about.svg"
+									class="imgList"
+									alt="Projetos"
+									width="24"
+									height="24"
+								/>
+								sobre
+							</a>
+						</li>
 
-                    <li>
-                        <a href="#" class="btnMenu">
-                            <img src="images/navbar/post.svg"  class="imgList" alt="Projetos" width="24" height="24">
-                            Posts
-                        </a>
-                    </li>
+						<li>
+							<a
+								href="/login"
+								class="btnMenu"
+							>
+								<img
+									src="images/navbar/user.svg"
+									class="imgList"
+									alt="login"
+									width="24"
+									height="24"
+								/>
+								Login
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-                    <li>
-                        <a href="#" class="btnMenu">
-                            <img src="images/navbar/about.svg" class="imgList"  alt="Projetos" width="24" height="24">
-                            sobre
-                        </a>
-                    </li>
+		<article class="container article">
+			<a href="#">
+				<div class="title" name="title">
+					<h3>
+						Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit.
+						Praesent a euismod est.
+						Phasellus eget.
+					</h3>
+					<br />
+					<time
+						datetime="2020-08-25 9:19"
+						class="pubDate"
+						name="pubDate"
+						>August 25, by Axel V.</time
+					>
+				</div>
+				<div class="imgArticle" name="imgArticle">
+					<img
+						src="https://images.unsplash.com/photo-1535312833541-9fb671a581b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+						alt="Imagem artigo"
+						width="900"
+						height="600"
+					/>
+				</div>
 
-                </ul>
-            </div>
-        </div>
-    </div>
-    
-    <article class="container article">
-        
-        <a href="#">
-            <div class="title" name="title">      
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a euismod est. Phasellus eget.</h3>
-               <br>
-                <time datetime="2020-08-25 9:19" class="pubDate" name="pubDate">August 25, by Axel V.</time>
-           </div>
-           <div class="imgArticle" name="imgArticle">
-               <img src="https://images.unsplash.com/photo-1535312833541-9fb671a581b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Imagem artigo" width="900" height="600">
-           </div>
-           
-           <div class="description" name="description">
-               <p class="textDescription" name="textDescription">
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit erat at nulla blandit aliquet. Praesent rhoncus posuere ligula sit amet malesuada. Etiam volutpat dui at interdum mollis. Duis cursus rhoncus congue. Mauris ac quam nunc. Donec non enim non justo iaculis vehicula eu id nisl. Morbi blandit odio ac luctus eleifend. Sed commodo libero ut neque tempus vulputate. Proin vitae malesuada libero. Curabitur iaculis interdum elit non viverra.
-               </p>
-           </div>
-        </a>
-    </article>
-</body>
+				<div class="description" name="description">
+					<p
+						class="textDescription"
+						name="textDescription"
+					>
+						Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit.
+						Mauris suscipit erat at nulla
+						blandit aliquet. Praesent
+						rhoncus posuere ligula sit amet
+						malesuada. Etiam volutpat dui at
+						interdum mollis. Duis cursus
+						rhoncus congue. Mauris ac quam
+						nunc. Donec non enim non justo
+						iaculis vehicula eu id nisl.
+						Morbi blandit odio ac luctus
+						eleifend. Sed commodo libero ut
+						neque tempus vulputate. Proin
+						vitae malesuada libero.
+						Curabitur iaculis interdum elit
+						non viverra.
+					</p>
+				</div>
+			</a>
+		</article>
+	</body>
 </html>
