@@ -6,7 +6,7 @@ Blog is too much, so i'll call as prototype of a blog, because, i dont know yet 
 The premise was to create without any framework, but i'll think about it a little bit more, because i'll need it to create the admin page and make the validation of user (i'm newbie at this thing yet).
 
 ****
-**technologies i'll use 👇🏾:**
+**technologies i'm using 👇🏾:**
 
 * JavaScript
 * CSS
