@@ -1,54 +1,67 @@
-input{
-    border: none;
-    margin: 0 10px;
-    padding: 0 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 250px;
-    height: 30px;
+input {
+  border: none;
+  margin: 0 10px;
+  padding: 0 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 250px;
+  height: 30px;
 
+  border-radius: 8px;
 
-    border-radius: 8px;
+  outline: none;
 }
 
-#container{
-    background-color: var(--secondary-color);
-    margin: 20vh auto;
-    padding: 50px;
-    width: 500px;
-    height: 500px;
-    border-radius: 8px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+a,
+p {
+  font-size: smaller;
+  margin-bottom: 30px;
 }
 
-#container .email-form{
-    margin: 30px;
+#container {
+  background-color: var(--secondary-color);
+  margin: 20vh auto;
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-#container .senha-form{
-    margin: 30px;
+#container .email-form {
+  margin: 30px;
 }
 
-#container .submit{
-    cursor: pointer;
-    border: none;
-    padding: 10px 30px;
-    background-color: var(--main-color);
-    color: var(--secondary-color);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
-    border-radius: 8px;
-
-    transition: .2s;
-
-    margin-bottom: 30px;
+#container .email-form .email {
+  margin-bottom: 5px;
 }
-#container .submit:hover{
-    background-color: var(--button-color);
-    transition: .2s;
 
+#container .senha-form {
+  margin: 30px;
+}
+
+#container .senha-form .senha {
+  margin-bottom: 5px;
+}
+
+#container .submit {
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  border-radius: 8px;
+
+  transition: 0.2s;
+
+  margin-bottom: 30px;
+}
+#container .submit:hover {
+  background-color: var(--button-color);
+  transition: 0.2s;
 }

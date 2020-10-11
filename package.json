@@ -1,7 +1,9 @@
 {
   "name": "starterBlog",
+  "types": "module",
   "scripts": {
-    "mad": "nodemon src/server.js -V"
+    "mad": "nodemon src/server.js -V",
+    "dev": "webpack-dev-server --mode=development"
   },
   "repository": {
     "type": "git",
@@ -9,18 +11,32 @@
   },
   "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AxelVarreira/MyFirstBlog/issues"
   },
   "homepage": "https://github.com/AxelVarreira/MyFirstBlog#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "firebase": "^7.21.1"
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "mongoose": "^5.10.8",
     "nodemon": "^2.0.4",
     "nunjucks": "^3.2.2",
-    "sqlite3": "^5.0.0"
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
